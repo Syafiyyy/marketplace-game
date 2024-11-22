@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/logo.png" />
+    <link rel="stylesheet" href="/static/css/AboutUs.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Apex Legends | Marketplace Game</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="nav">
+            <a href="index.html" class="logo">Marketplace Game</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#arrival">Top Sale</a></li>
+                    <li><a href="#best-collection">Best Collection</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <a href="cart.html" class="cart-link">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span id="cartBadge" class="cart-badge">0</span>
+                    </a>
+                </div>
+            </nav>
+            <i class="fa-solid fa-bars burger_icon"></i>
+        </div>
+    </header>
+
+      <!-- ---------ABOUT-------- -->
+      <div class="account-page">
+        <section class="page-section" id="about">
+          <div class="container">
+            <div class="text-center">
+              <h2 class="section-heading text-uppercase">About Us</h2>
+              <h3 class="section-subheading text-muted">Some information about our shop.</h3>
+            </div>
+            <ul class="timeline">
+                <!-- Login Page -->
+                <li>
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="images/login-page.jpg" alt="Login Page" />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>Step 1</h4>
+                      <h4 class="subheading">Login Page</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        The login page is the gateway for users to access their accounts securely. Users can sign in using their credentials or create a new account.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              
+                <!-- Index Page -->
+                <li class="timeline-inverted">
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="images/index-page.jpg" alt="Index Page" />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>Step 2</h4>
+                      <h4 class="subheading">Index Page</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        The index page serves as the homepage, showcasing featured products, promotions, and navigation options for exploring the website.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              
+                <!-- Product Page -->
+                <li>
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="images/product-page.jpg" alt="Product Page" />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>Step 3</h4>
+                      <h4 class="subheading">Product Page</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        The product page provides detailed information about individual items, including images, descriptions, pricing, and an option to add to the cart.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              
+                <!-- Cart Page -->
+                <li class="timeline-inverted">
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="images/cart-page.jpg" alt="Cart Page" />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>Step 4</h4>
+                      <h4 class="subheading">Cart Page</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        The cart page displays items selected by the user. Customers can review their order, adjust quantities, or proceed to checkout.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              
+                <!-- Checkout Page -->
+                <li>
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="images/checkout-page.jpg" alt="Checkout Page" />
+                  </div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4>Step 5</h4>
+                      <h4 class="subheading">Checkout Page</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="text-muted">
+                        The checkout page allows users to review their order, provide shipping and payment details, and finalize their purchase.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              
+          </div>
+        </section>
+      </div>
+
+      <!-- -------footer------ -->
+      <footer class="footer">
+        <div class="container-f">
+          <div class="row-f">
+            <!-- Footer Columns -->
+          </div>
+          <hr />
+          <div class="copyright text-center">
+            <h5>🌐 copyright © 2022 SiyaShop.com all rights reserved</h5>
+            <br />
+            <small>♥ built by <a href="#">Shubham Choudhary</a></small>
+          </div>
+        </div>
+      </footer>
+
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+        var MenuItem = document.getElementById("inneritems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+          MenuItems.style.maxHeight = MenuItems.style.maxHeight === "0px" ? "200px" : "0px";
+        }
+        function menutoggl() {
+          MenuItem.style.display = MenuItem.style.display === "block" ? "none" : "block";
+        }
+      </script>
+  </body>
+</html>
